@@ -36,7 +36,7 @@ The system performs the following tasks:
 | `finetuned_wav2vec2`            | Wav2Vec2 transformer fine-tuned for emotion recognition          |
 | `nervous_intensity_modelINTE.h5`| Keras model for emotion intensity prediction                     |
 
-
+---
 
 ## 📌 Use Cases
 This system can be applied in real-world scenarios including:
@@ -55,6 +55,7 @@ Helps in improving performance, vocal stability, and stage presence.
 
 Useful for trainers, students, corporate speakers, and motivational coaches.
 
+---
 
 ## 🧠 Swarm Intelligence in Training
 Swarm Intelligence (e.g., Particle Swarm Optimization - PSO) was used during the training phase to:
@@ -65,7 +66,7 @@ Optimize hyperparameters of the Keras models for better accuracy and generalizat
 
 ⚠️ This optimization is not performed during inference but plays a crucial role in how well the models perform on unseen data.
 
-
+---
 
 ## 📌 Notes
 All .wav files should be in mono or stereo format and preferably 16kHz sampling rate.
