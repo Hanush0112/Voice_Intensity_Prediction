@@ -75,6 +75,8 @@ If not, the script automatically resamples audio for Wav2Vec2 compatibility.
 
 Make sure the pretrained models are present in the project root.
 
+---
+
 ## 🚀 Future Work
 Add real-time audio capture support
 
