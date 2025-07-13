@@ -36,17 +36,7 @@ The system performs the following tasks:
 | `finetuned_wav2vec2`            | Wav2Vec2 transformer fine-tuned for emotion recognition          |
 | `nervous_intensity_modelINTE.h5`| Keras model for emotion intensity prediction                     |
 
----
 
-## 📁 Directory Structure
-
-project_root/
-├── upload/ # Folder containing .wav files to process
-├── nervous_intensity_modelEMO.h5 # Trained Keras emotion model
-├── nervous_intensity_modelINTE.h5 # Trained Keras intensity model
-├── merged_with_emotion_intensity3.csv # Dataset used for scaling and encoding
-├── main.py # Main script to run predictions
-└── README.md # You're reading it :)
 
 ## 📌 Use Cases
 This system can be applied in real-world scenarios including:
